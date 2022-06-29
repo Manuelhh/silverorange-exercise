@@ -4,7 +4,6 @@ import { Router, Request, Response } from 'express';
 import axios from 'axios';
 // import json data from repos.json
 import jsonRepos from '../../../api/data/repos.json';
-import { json } from 'stream/consumers';
 
 export const repos = Router();
 
